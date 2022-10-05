@@ -1,0 +1,16 @@
+Algoritímo exercicio3
+Início
+
+    Real lado1, lado2, area
+
+    escreva("Entre com o primeiro lado: ")
+    leia(lado1)
+
+    escreva("Entre com o segundo lado: ")
+    leia(lado2)
+
+    area = lado1 * lado2
+
+    escreva("Area do retângulo: " + area)
+
+Fim

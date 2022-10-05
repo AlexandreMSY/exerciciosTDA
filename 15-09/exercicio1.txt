@@ -1,0 +1,16 @@
+Algoritímo exercicio1
+Início
+
+    Real valor1, valor2, media
+
+    escreva("Entre com o primeiro valor: ")
+    leia(valor1)
+
+    escreva("Entre com o segundo valor: ")
+    leia(valor2)
+
+    media = (valor1 + valor2) / 2
+
+    escreva("Média: " + media)
+
+Fim

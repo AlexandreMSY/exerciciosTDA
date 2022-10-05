@@ -1,0 +1,17 @@
+Algoritímo exercicio2
+Início
+
+    Real valorParcela, totalPago
+    Inteiro numeroParcelas
+
+    escreva("Valor da parcela: ")
+    leia(valorParcela)
+
+    escreva("Numero de parcelas: ")
+    leia(numeroParcelas)
+
+    totalPago = valorParcela * numeroParcelas
+
+    escreva("Total pago: " + totalPago)
+
+Fim

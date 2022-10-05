@@ -1,0 +1,12 @@
+Algoritímo exercicio4
+
+Início
+    Real fahrenheit, celsius
+
+    escreva("Entre com a temperatura em fahrenheit(°F): ")
+    leia(fahrenheit)
+
+    celsius = (fahrenheit - 32) / 1,8
+
+    escreva(celsius + "°C")
+Fim
