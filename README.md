@@ -114,8 +114,6 @@ tipoDeRetorno nomeDaFunção(parametros){
 
         escreva(numero)
 ````
-
-### void são funções sem retorno
 ```
     void printarHelloWorld(){
         escreva("Hello World")
