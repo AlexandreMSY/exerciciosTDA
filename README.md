@@ -1,7 +1,7 @@
 <h1 align="center">Sintaxe do psuedo-código</h1>
 
 # Entrada e Saida
-## Saída
+### Saída
 
 <h3> <strong> escreva(output)</strong> </h3>
 
@@ -14,7 +14,7 @@ Algorítimo saídaExemplo
 
 Fim
 ```
-## Entrada
+### Entrada
 
 <h3> <strong>leia(variavel)</strong> </h3>
 
@@ -52,7 +52,7 @@ Fim
 
 # Estrutura de Decisão
 
-## Se (if)
+### Se (if)
 ```
 se(condição){
     //código
@@ -69,7 +69,7 @@ Algorítimo seExemplo
 Fim
 ```
 
-## Senão (else)
+### Senão (else)
 
 ```
 se (condição){
