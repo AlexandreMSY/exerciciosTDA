@@ -91,7 +91,7 @@ Algorítimo senaoExemplo
 Fim
 ```
 
-## Funções
+# Funções
 ```
 tipoDeRetorno nomeDaFunção(parametros){
     //código
