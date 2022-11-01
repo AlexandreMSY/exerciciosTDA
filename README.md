@@ -69,6 +69,33 @@ Algorítimo seExemplo
 Fim
 ```
 
+### Senão se (else if)
+
+```
+se(condição){
+    //código
+}senão se(condição){
+    //código
+}else{
+    //código
+}
+```
+
+```
+Algorítimo senão seExemplo
+Ìnicio
+    Inteiro numero = 1
+    se (numero == 1){
+        escreva("Número é 1")
+    }senão se(numero == 2){
+        escreva("Número é 2)
+    }else{
+        escreva("Numero é qualquer outra coisa")
+    }
+Fim
+
+```
+
 ### Senão (else)
 
 ```
@@ -88,6 +115,68 @@ Algorítimo senaoExemplo
     }senão{
         escreva("Reprovado!")
     }
+Fim
+```
+
+### Escolha / Caso (switch case)
+```
+escolha (variavel){
+    caso valor1:
+        //codigo
+        pare
+
+    caso valor2:
+        //codigo
+        pare
+
+    padrão:
+        //codigo
+}
+
+```
+
+```
+Algorítimo switchCase
+Inicio
+    Inteiro numero = 2
+    String diaSemana
+
+
+    escolha (numero){
+        caso 1:
+            diaSemana = "domingo"
+            pare
+
+        caso 2:
+            diaSemana = "segunda"
+            pare
+
+        caso 3:
+            diaSemana = "terça"
+            pare
+
+        caso 4:
+            diaSemana = "quarta"
+            pare
+
+        caso 5:
+            diaSemana = "quinta"
+            pare
+
+        caso 6:
+            diaSemana = "sexta"
+            pare
+
+        caso 7:
+            diaSemana = "sabado"
+            pare
+        
+        padrão:
+            diaSemana = "não encontrado"
+    }
+
+    escreva(diaSemana)
+
 Fim
 ```
 
