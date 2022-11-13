@@ -180,6 +180,62 @@ Inicio
 Fim
 ```
 
+# Estruturas de Repetição
+
+### Para (for loop)
+```
+para (váriavel, condição, modificador){
+    //código
+}
+```
+
+```
+Algorítimo paraExemplo
+Início
+    para(inteiro numero = 0; numero <= 10; numero++){
+        escreva(numero)
+    }
+Fim
+```
+
+### Enquanto (while loop)
+```
+enquanto(condição){
+    //código
+}
+```
+
+```
+Algorítimo enquantoExemplo
+Início
+    Inteiro numero = 0
+
+    enquanto(numero <= 10){
+        escreva(numero)
+        numero = numero + 1
+    }
+Fim
+```
+
+### Faça Enquanto (do while loop)
+```
+faça{
+    //código
+}enquanto(condição)
+```
+
+```
+Algorítimo facaEnquanto
+Início
+    Inteiro numero = 0
+    
+    faça{
+        escreva(numero)
+        numero = numero + 1
+    }enquanto(numero <= 10)
+Fim
+```
+
 # Funções
 ```
 tipoDeRetorno nomeDaFunção(parametros){
